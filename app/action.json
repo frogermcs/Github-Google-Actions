@@ -1,0 +1,51 @@
+{
+  "versionLabel": "1.0.0",
+  "agentInfo": {
+    "languageCode": "en-US",
+    "projectId": "githubactions",
+    "voiceName": "female_1"
+  },
+  "actions": [
+    {
+      "description": "Launch intent",
+      "initialTrigger": {
+        "intent": "assistant.intent.action.MAIN"
+      },
+      "httpExecution": {
+        "url": "https://githubactions.appspot.com/"
+      }
+    },
+    {
+      "description": "trending repositories",
+      "initialTrigger": {
+        "intent": "com.frogermcs.githubactions.intent.TRENDING",
+        "queryPatterns": [
+          {
+            "queryPattern": "what are trending repositories"
+          },
+          {
+            "queryPattern": "what are the hottest repositories"
+          },
+          {
+            "queryPattern": "trending repositories"
+          },
+          {
+            "queryPattern": "trending"
+          },
+          {
+            "queryPattern": "hottest repositories"
+          },
+          {
+            "queryPattern": "hot repositories"
+          },
+          {
+            "queryPattern": "hot projects"
+          }
+        ]
+      },
+      "httpExecution": {
+        "url": "https://githubactions.appspot.com/"
+      }
+    }
+  ]
+}
