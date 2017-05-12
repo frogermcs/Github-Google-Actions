@@ -2,7 +2,7 @@
 
 This is example Google Home/Google Assistant Actions written in Java, ready to deploy on Google AppEngine. Detailed description can be found in blog posts:
 
-- Hello world Google Home (link will be provided later)
+- [Hello world Google Home](http://frogermcs.github.io/Hello-world-Google-Home/)
 
 ## Installation
 
