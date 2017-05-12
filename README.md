@@ -15,4 +15,4 @@ _Remember to update Project ID before deploying on Google AppEngine_
 - `$ gactions preview -action_package=app/action.json -invocation_name=Github`
 - Test in [Web Simulator](https://developers.google.com/actions/tools/web-simulator)
 
-
+![Web Simulator](https://raw.githubusercontent.com/frogermcs/Github-Google-Actions/master/art/web_simulator.png "Web Simulator")
